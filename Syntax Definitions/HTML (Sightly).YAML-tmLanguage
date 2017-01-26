@@ -1,0 +1,15 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: HTML (Sightly)
+scopeName: source.sightly
+fileTypes: [html]
+uuid: beaa1596-f54a-4cef-8888-8e304d079408
+
+patterns:
+- name: name.that.makes.sense.here
+  match: (\${)
+  captures:
+    '1': {name: keyword.other.block.start.sightly}
+- include: text.html 
+
+...
