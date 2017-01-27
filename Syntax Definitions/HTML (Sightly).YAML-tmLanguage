@@ -6,10 +6,15 @@ fileTypes: [html]
 uuid: beaa1596-f54a-4cef-8888-8e304d079408
 
 patterns:
-- name: name.that.makes.sense.here
-  match: (\${)
-  captures:
-    '1': {name: keyword.other.block.start.sightly}
-- include: text.html 
-
+- include: text.html
+- name: punctuation.section.directive.sightly
+  comment: Start and end of Sightly block.
+  begin: \${
+  beginCaptures:
+    '0': {name: keyword.other.block.start.sightly}
+  end: }
+#   patterns:
+#   - comment: Add other stuff within a Sightly block here
+# repository:
+  
 ...
