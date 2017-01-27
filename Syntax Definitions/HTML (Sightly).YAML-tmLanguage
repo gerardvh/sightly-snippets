@@ -12,9 +12,9 @@ patterns:
   begin: \${
   beginCaptures:
     '0': {name: keyword.other.block.start.sightly}
-  end: }
-#   patterns:
-#   - comment: Add other stuff within a Sightly block here
+  end: \}
+  # patterns:
+  # - comment: Add other stuff within a Sightly block here
 # repository:
   
 ...

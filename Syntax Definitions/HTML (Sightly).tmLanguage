@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>html</string>
+	</array>
+	<key>name</key>
+	<string>HTML (Sightly)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>text.html</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\${</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.block.start.sightly</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Start and end of Sightly block.</string>
+			<key>end</key>
+			<string>\}</string>
+			<key>name</key>
+			<string>punctuation.section.directive.sightly</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.sightly</string>
+	<key>uuid</key>
+	<string>beaa1596-f54a-4cef-8888-8e304d079408</string>
+</dict>
+</plist>
