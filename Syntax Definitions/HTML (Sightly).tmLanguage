@@ -11,10 +11,6 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>include</key>
-			<string>text.html</string>
-		</dict>
-		<dict>
 			<key>begin</key>
 			<string>\${</string>
 			<key>beginCaptures</key>
@@ -34,7 +30,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.sightly</string>
+	<string>text.html.sightly</string>
 	<key>uuid</key>
 	<string>beaa1596-f54a-4cef-8888-8e304d079408</string>
 </dict>

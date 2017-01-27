@@ -1,12 +1,11 @@
 # [PackageDev] target_format: plist, ext: tmLanguage
 ---
 name: HTML (Sightly)
-scopeName: source.sightly
+scopeName: text.html.sightly
 fileTypes: [html]
 uuid: beaa1596-f54a-4cef-8888-8e304d079408
 
 patterns:
-- include: text.html
 - name: punctuation.section.directive.sightly
   comment: Start and end of Sightly block.
   begin: \${
